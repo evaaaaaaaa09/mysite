@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Smallfoot</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.default.min.css" />
+</head>
+
+<body>
+  <header>
+    <img src="Cats_kitties_kitty.jpg" width="200" draggable="false" alt="logo" />
+    <nav>
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li class='dropdown'><a>Services</a>
+          <ul class="dropdown-content">
+            <li><a href="#">Web design</a></li>
+            <li><a href='#'>SEO</a></li>
+            <li><a href="#">Marketing</a></li>
+          </ul>
+        </li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <h4>1</h4>
+      </div>
+      <div class="item">
+        <h4>2</h4>
+      </div>
+      <div class="item">
+        <h4>3</h4>
+      </div>
+      <div class="item">
+        <h4>4</h4>
+      </div>
+      <div class="item">
+        <h4>5</h4>
+      </div>
+      <div class="item">
+        <h4>6</h4>
+      </div>
+    </div>
+    <div class="post">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu nunc
+        et justo commodo varius ut quis sem. Nunc justo est, consectetur sed
+        arcu a, maximus blandit nibh. Sed eu sem in est porttitor suscipit et
+        ut lectus. Duis ultrices vehicula finibus. Sed luctus nibh sed nisl
+        finibus, eget scelerisque libero ullamcorper.
+      </p>
+    </div>
+    <div class="post">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu nunc
+        et justo commodo varius ut quis sem. Nunc justo est, consectetur sed
+        arcu a, maximus blandit nibh. Sed eu sem in est porttitor suscipit et
+        ut lectus. Duis ultrices vehicula finibus. Sed luctus nibh sed nisl
+        finibus, eget scelerisque libero ullamcorper.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu nunc
+        et justo commodo varius ut quis sem. Nunc justo est, consectetur sed
+        arcu a, maximus blandit nibh. Sed eu sem in est porttitor suscipit et
+        ut lectus. Duis ultrices vehicula finibus.
+      </p>
+    </div>
+    <div class="post">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu nunc
+        et justo commodo varius ut quis sem. Nunc justo est, consectetur sed
+        arcu a, maximus blandit nibh. Sed eu sem in est porttitor suscipit et
+        ut lectus. Duis ultrices vehicula finibus. Sed luctus nibh sed nisl
+        finibus, eget scelerisque libero ullamcorper.
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <div>
+      <div>
+        <img src="" width="250" draggable="false" alt="logo" />
+      </div>
+      <div class="footer-columns">
+        <div class="footer-column">
+          <ul class="">
+            <li><a href="#">Home</a></li>
+            <li class=''><a>Services</a>
+              <ul class="">
+                <li><a href="#">Web design</a></li>
+                <li><a href='#'>SEO</a></li>
+                <li><a href="#">Marketing</a></li>
+              </ul>
+            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Contact me</h3>
+          <strong>Email: contact@gmail.com</strong>
+        </div>
+      </div>
+      <small>Copyright &copy; 2024 Volodymyr Ivanchuk</small>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".owl-carousel").owlCarousel({
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:1000,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        }
+      })
+    })
+  </script>
+</body>
+
+</html>
